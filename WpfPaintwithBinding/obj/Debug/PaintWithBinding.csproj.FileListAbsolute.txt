@@ -1,0 +1,16 @@
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\bin\Debug\WpfPaintWithBinding.exe.config
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\bin\Debug\WpfPaintWithBinding.exe
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\bin\Debug\WpfPaintWithBinding.pdb
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\PaintWithBinding.csproj.AssemblyReference.cache
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\PaintWithBinding.csproj.SuggestedBindingRedirects.cache
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\MainWindow.g.cs
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\App.g.cs
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\WpfPaintWithBinding_MarkupCompile.cache
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\WpfPaintWithBinding_MarkupCompile.lref
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\MainWindow.baml
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\WpfPaintWithBinding.g.resources
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\WpfPaintWithBinding.Properties.Resources.resources
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\PaintWithBinding.csproj.GenerateResource.cache
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\PaintWithBinding.csproj.CoreCompileInputs.cache
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\WpfPaintWithBinding.exe
+C:\Users\307-12\Documents\morochka\WpfPaintWithBinding\obj\Debug\WpfPaintWithBinding.pdb
