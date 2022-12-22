@@ -1,0 +1,54 @@
+﻿<Window x:Class="Wpf1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf1"
+        mc:Ignorable="d"
+        x:Name="window" Height="500" Width="800" MinWidth="800" MinHeight="500">
+
+    <Canvas>
+        <Menu Background="White"
+              MouseEnter="Menu_MouseEnter_Menu"
+              MouseLeave="Menu_MouseLeave_Menu" Width="800">
+            <MenuItem Header="_Файл" Height="29" Width="54">
+                <MenuItem Header="_Изменить цвет окна">
+                    <MenuItem Header="Черный" Click="MenuItem_Click_Color_Black"/>
+                    <MenuItem Header="Белый" Click="MenuItem_Click_Color_White"/>
+                    <MenuItem Header="Красный" Click="MenuItem_Click_Color_Red"/>
+                    <MenuItem Header="Зеленый" Click="MenuItem_Click_Color_Green"/>
+                    <MenuItem Header="Синий" Click="MenuItem_Click_Color_Blue"/>
+                </MenuItem>
+                <MenuItem Header="_Получить информацию о разработчике" Click="MenuItem_Click_Info"/>
+                <Separator />
+                <MenuItem Header="_Закрыть" Click="MenuItem_Click_Close" />
+            </MenuItem>
+        </Menu>        <ToolBar Canvas.Top="31" Width="64" MouseEnter="Menu_MouseEnter_ToolBar"                 MouseLeave="Menu_MouseLeave_ToolBar">            <Button>
+                <Image Source="/ic1.png" Height="30" Width="33"/>
+            </Button>
+            <Button ToolBar.OverflowMode="Always" Click="MenuItem_Click_Color_Black">
+                <Image Source="/black.png" Height="30" Width="33"/>
+            </Button>            <Button ToolBar.OverflowMode="Always" Click="MenuItem_Click_Color_White">
+                <Image Source="/white.png" Height="30" Width="33"/>
+            </Button>            <Button ToolBar.OverflowMode="Always" Click="MenuItem_Click_Color_Red">
+                <Image Source="/red.png" Height="30" Width="33"/>
+            </Button>            <Button ToolBar.OverflowMode="Always" Click="MenuItem_Click_Color_Green">
+                <Image Source="/drop.png" Height="30" Width="33"/>
+            </Button>            <Button ToolBar.OverflowMode="Always" Click="MenuItem_Click_Color_Blue">
+                <Image Source="/blue.png" Height="30" Width="33"/>
+            </Button>        </ToolBar>        <ToolBar Canvas.Top="31" Width="109"  MouseEnter="Menu_MouseEnter_ToolBar"                 MouseLeave="Menu_MouseLeave_ToolBar"
+                 HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Left="64">
+            <Button Click="MenuItem_Click_Info">
+                <Image  Source="/ic2.png" Height="30" Width="33"></Image>
+            </Button>
+            <Button Click="MenuItem_Click_Close">
+                <Image Source="/free-icon-close-3943324.png" Height="30" Width="33"></Image>
+            </Button>
+        </ToolBar>        <StatusBar HorizontalAlignment="Center" Canvas.Top="440" 
+                   VerticalAlignment="Top" Width="800" Height="20">
+            <StatusBarItem HorizontalAlignment="Left" >
+                <TextBlock Name="stbar" />
+            </StatusBarItem>
+        </StatusBar>
+    </Canvas>
+</Window>
